@@ -1,0 +1,50 @@
+node --version
+node -v
+use o command prompt para conseguir instalar dependnencias e demais ajustes do curso
+npm init es6 -y
+npm install express
+abrir terminal: control j
+
+node server.js
+node --watch server.js
+
+Criar uma rota: app.get("/")
+
+control C para derrubar o servidor
+
+acessar no navegador: http://localhost:3000/api
+
+Quebra de texto: ALT Z
+
+CHAVE DE API:
+AIzaSyBPP7MRJ8GseUT6wFe_nqKgcVxqavbKfBI
+
+email mogodb: edwins.ramires@gmail.com
+login usuario MONGODB: edwinsramires senha: Edw@1975
+
+npm install mongodb
+
+mongodb+srv://edwinsramires:Edw@1975@cluster0.iga1v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+nova conta mongo:
+edwinsestacio2
+eK3jyRx3jTmtqPZp
+mongodb+srv://edwinsestacio2:eK3jyRx3jTmtqPZp@cluster0.llnee.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+nome do drive mongo (database name): imersao-instabytes
+collection name: posts
+
+"node --watch --env-file=.env server.js"
+
+chamando o script .dev que busca o meu BD no mongodb: npm run dev
+
+COLOCAR O .js
+import conectarAoBanco from "./src/config/dbConfig.js";
+
+VERBOS http
+são ações que todo o sistema faz
+criar-post deletar-delete ler-get atualziar-put
+
+toda vez que der erro é necessario adicionar o ip atual no mongodb !
+
+Aula05 parei em 45:12 minutos
